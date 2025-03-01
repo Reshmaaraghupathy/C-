@@ -1,0 +1,8 @@
+#include<iostream>
+int main(){
+    char alpha;
+    std::cout << "Enter the character: "<<std::endl;
+    std::cin >> alpha;
+    std::cout << "The ASCII value of "<<alpha<<" is "<<int(alpha)<<std::endl;
+    return 0;
+}
