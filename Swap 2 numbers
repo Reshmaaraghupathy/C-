@@ -1,0 +1,13 @@
+#include<iostream>
+int main(){
+    int num1;
+    int num2;
+    int temp;
+    std::cout << "Enter 2 numbers: ";
+    std::cin >> num1 >> num2;
+    temp = num2;
+    num2 = num1;
+    num1 = temp;
+    std::cout<< "Number 1 = "<<num1<<" , Number 2 = "<<num2<<std::endl;
+    return 0;
+}
